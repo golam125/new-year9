@@ -1,0 +1,351 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-family: "Merriweather", system-ui;
+    padding: 40px 140px;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+}
+
+/*Banner*/
+.banner{
+    background-image: url(resources/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:150px ;
+    padding-bottom: 150px;
+}
+
+.new-grettings{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year-title{
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+/*offer*/
+.offer{
+    margin-top: 120px;
+}
+.off{
+    text-align: center;
+}
+
+.off h1{
+    font-family: "Inter", sans-serif;
+    color: #ff0000;
+    font-size: 88px;
+    font-weight: 800;
+    margin-bottom: -10px;
+
+}
+.off p{
+    
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.off-img{
+    width:925px ;
+    height: 602px;
+}
+
+/*welcome */
+
+.welcome{
+    margin-top: 120px;
+    background-image: url(resources/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:175px ;
+    padding-left: 126px;
+    padding-bottom: 175px;
+}
+.wel-titile{
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.wel-text{
+
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 200px;
+
+}
+
+.welcome a{
+    text-decoration: none;
+    color: beige;
+}
+
+
+.place{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-top: 120px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200;
+    margin-bottom: 118px;
+    
+    
+}
+
+.place-title{
+    color: #ff0000;
+}
+
+.p-button{
+    display: flex;
+    justify-content: center;
+}
+
+.place-button{
+    background-color: #ff0000;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    border: none;
+    width: 167px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+
+}
+
+/*Cpmming Soon*/
+
+.comming-soon{
+display: flex;
+}
+
+.comming-left{
+    width:533px ;
+    
+}
+
+.comming-sub{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+margin-bottom: -10px;
+
+}
+
+
+.comming-title{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+
+.comming-des{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.comming-center-border-outer{
+            margin-left: 70px;
+            margin-right: 70px;
+            border: 10px solid red; 
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+.comming-center-border-inner{
+    width: 533px; 
+            height: auto; 
+            border: 20px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+}
+
+.comming-center-border-inner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.comming-right{
+    width: 533px;
+}
+
+.comming-right h2{
+margin-top: 100px;
+}
+.comming-right p{
+margin-top: 180px;
+}
+
+
+
+
+/*Sale*/
+
+.sale{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.sale-sub{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+}
+
+.sale-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    text-align: center;
+}
+
+.sale-p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/*Sale Photos*/
+.sale-off{
+    margin-left: 428px;
+    margin-top: 62px;
+    position: absolute;
+}
+.gir{
+    margin-bottom: -5px;
+}
+
+.sale-photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift-box{
+    background-image: url(resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    
+    background-size: 100% 299px;
+    margin-bottom: 160px;
+}
+
+.box{
+    margin-left: 127px;
+    
+    position: relative;
+    margin-top: -390px;
+}
+
+
+/*Portfolio*/
+.port-sub{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.port-titile{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+.port-des{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.port-img{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.subscribe-form{
+    border: 1px solid #000;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+}
+.email-input{
+    border: none;
+    padding: 25px 267px 25px 30px;
+    border-radius: 50px;
+}
+
+.subscribe-button {
+    background-color: red;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+  }
